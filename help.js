@@ -20,7 +20,7 @@ class testCommand {
     }
     runCommand(args, msgObject, client) {
         return __awaiter(this, void 0, void 0, function* () {
-            msgObject.channel.send("  help - Maze gives you a list of his commands. (Prefix is tilde ~) \nbeep - Beep beep! \ninvite - I share my auth link so you can spread me like a virus >:3c (but I'm not so don't worry) \ncursed - Maze sends a cursed image from his folder (submitted by other users) \nsay - make maze talk, but nothing he says is cannon so your dreams will never be fulfilled ;) \nhomer - do the homer shake \nshrek - posts a link to a low quality version of the entire shrek movie \ncat - posts a cat image \nfox - posts a fox image \nrps(input) play rock paper scissors with maze \nkanye - posts a kanye west quote \ncatfact - posts a fact about cats \nbird - posts a bird image");
+            msgObject.channel.send("  help - Maze gives you a list of his commands. (Prefix is tilde ~) \nbeep - Beep beep! \ninvite - I share my auth link so you can spread me like a virus >:3c (but I'm not so don't worry) \ncursed - Maze sends a cursed image from his folder (submitted by other users) \nsay - make maze talk, but nothing he says is cannon so your dreams will never be fulfilled ;) \nhomer - do the homer shake \nshrek - posts a link to a low quality version of the entire shrek movie \ncat - posts a cat image \nfox - posts a fox image \nrps(input) play rock paper scissors with maze \nkanye - posts a kanye west quote \ncatfact - posts a fact about cats \nbird - posts a bird image \ngithub - posts the link to my github repository");
         });
     }
 }
